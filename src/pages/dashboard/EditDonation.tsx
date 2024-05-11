@@ -54,23 +54,23 @@ const [editDonation] = useEditDonationMutation();
 <form onSubmit={handleSubmit} className="w-[25%] mx-auto">
       <div>
         <label>Image:</label>
-        <Input onChange={(e)=>setImage(e.target.value)} type="text" value={image}/>
+        <Input onChange={(e)=>setImage(e.target.value)} type="text" value={image} required/>
       </div>
       <div>
         <label>Category:</label>
-        <Input type="text" onChange={(e)=>setCategory(e.target.value)} value={category}/>
+        <Input type="text" onChange={(e)=>setCategory(e.target.value)} value={category} required/>
       </div>
       <div>
         <label>Title:</label>
-        <Input type="text" onChange={(e)=>setTitile(e.target.value)} value={title}/>
+        <Input type="text" onChange={(e)=>setTitile(e.target.value)} value={title} required/>
       </div>
       <div>
         <label>Amount:</label>
-        <Input type="number" onChange={(e)=>setAmount(e.target.value)} value={amount}/>
+        <Input type="number" onChange={(e)=>setAmount(e.target.value)} value={amount} required/>
       </div>
       <div>
         <label>Description:</label>
-        <Input type="text" onChange={(e)=>setDescription(e.target.value)} value={description}/>
+        <Input type="text" onChange={(e)=>setDescription(e.target.value)} value={description} required/>
       </div>
       <div className="mt-3">
       <Button htmlType="submit" className="w-full">Edit</Button>

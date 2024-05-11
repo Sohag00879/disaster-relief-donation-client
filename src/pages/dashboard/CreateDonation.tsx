@@ -39,19 +39,19 @@ const CreateDonation = () => {
     <div className="flex items-center justify-center">
 <form onSubmit={handleSubmit} className="sm:w-full md:w-[50%] mx-auto">
       <div>
-        <Input onChange={(e)=>setImage(e.target.value)} type="text" placeholder="Image"/>
+        <Input onChange={(e)=>setImage(e.target.value)} type="text" placeholder="Image" required/>
       </div>
       <div>
-        <Input type="text" onChange={(e)=>setCategory(e.target.value)} placeholder="Category" style={{marginTop:'10px'}}/>
+        <Input type="text" onChange={(e)=>setCategory(e.target.value)} placeholder="Category" style={{marginTop:'10px'}} required/>
       </div>
       <div>
-        <Input type="text" onChange={(e)=>setTitile(e.target.value)} placeholder="Title" style={{marginTop:'10px'}}/>
+        <Input type="text" onChange={(e)=>setTitile(e.target.value)} placeholder="Title" style={{marginTop:'10px'}} required/>
       </div>
       <div>
-        <Input type="number" onChange={(e)=>setAmount(e.target.value)} placeholder="Amount" style={{marginTop:'10px'}}/>
+        <Input type="number" onChange={(e)=>setAmount(e.target.value)} placeholder="Amount" style={{marginTop:'10px'}}required/>
       </div>
       <div>
-        <Input type="text" onChange={(e)=>setDescription(e.target.value)} placeholder="Description" style={{marginTop:'10px'}}/>
+        <Input type="text" onChange={(e)=>setDescription(e.target.value)} placeholder="Description" style={{marginTop:'10px'}} required/>
       </div>
       <div className="mt-3">
       <button type="submit" className="btn btn:hover">Submit</button>

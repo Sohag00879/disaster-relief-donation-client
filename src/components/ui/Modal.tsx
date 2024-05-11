@@ -97,12 +97,14 @@ const DonateModal = ({ data }: { data: TDonationData }) => {
               type="text"
               placeholder="Your Name"
               onChange={(e) => setName(e.target.value)}
+              required
             />
             <Input
               type="text"
               placeholder="Your Email"
               style={{ marginTop: "20px" }}
               onChange={(e) => setEmail(e.target.value)}
+              required
             />
           </div>
         )}
@@ -111,6 +113,7 @@ const DonateModal = ({ data }: { data: TDonationData }) => {
           placeholder="Amount of Donation"
           style={{ marginTop: "20px" }}
           onChange={(e) => setDonationAmount(e.target.value)}
+          required
         />
       </Modal>
     </>

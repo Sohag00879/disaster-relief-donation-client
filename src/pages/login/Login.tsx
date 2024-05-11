@@ -55,6 +55,7 @@ const Login = () => {
                 placeholder="Email Address"
                 onChange={(e) => setEmail(e.target.value)}
                 className="peer mt-1 w-full border-b-2 border-gray-300 px-0 py-1 placeholder:text-transparent focus:border-gray-500 focus:outline-none"
+                required
               />
             </div>
             <div className="relative mt-6">
@@ -65,6 +66,7 @@ const Login = () => {
                 placeholder="Password"
                 onChange={(e) => setPassword(e.target.value)}
                 className="peer peer mt-1 w-full border-b-2 border-gray-300 px-0 py-1 placeholder:text-transparent focus:border-gray-500 focus:outline-none"
+                required
               />
             </div>
             <div className="my-6">

@@ -80,6 +80,7 @@ const Volunteer = () => {
                     type="text"
                     className="peer mt-1 w-full border-b-2 border-gray-300 px-0 py-1 placeholder:text-transparent focus:border-gray-500 focus:outline-none"
                     {...register('name')}
+                    required
                   />
                 </div>
                 <div className="relative mt-6">
@@ -88,6 +89,7 @@ const Volunteer = () => {
                     type="email"
                     className="peer mt-1 w-full border-b-2 border-gray-300 px-0 py-1 placeholder:text-transparent focus:border-gray-500 focus:outline-none"
                     {...register('email')}
+                    required
                     
                   />
                 </div>
@@ -100,6 +102,7 @@ const Volunteer = () => {
                     type="text"
                     className="peer peer mt-1 w-full border-b-2 border-gray-300 px-0 py-1 placeholder:text-transparent focus:border-gray-500 focus:outline-none"
                     {...register('phone')}
+                    required
                   />
                 </div>
                 <div className="relative mt-6">
@@ -108,6 +111,7 @@ const Volunteer = () => {
                     type="text"
                     className="peer peer mt-1 w-full border-b-2 border-gray-300 px-0 py-1 placeholder:text-transparent focus:border-gray-500 focus:outline-none"
                     {...register('location')}
+                    required
                   />
                 </div>
                 <div className="relative mt-6">
@@ -116,6 +120,7 @@ const Volunteer = () => {
                     type="text"
                     className="peer peer mt-1 w-full border-b-2 border-gray-300 px-0 py-1 placeholder:text-transparent focus:border-gray-500 focus:outline-none"
                     {...register('profession')}
+                    required
                   />
                 </div>
                 <div className="relative mt-6">
@@ -124,6 +129,7 @@ const Volunteer = () => {
                     type="text"
                     className="peer peer mt-1 w-full border-b-2 border-gray-300 px-0 py-1 placeholder:text-transparent focus:border-gray-500 focus:outline-none"
                     {...register('image')}
+                    required
                   />
                 </div>
                 <div className="my-6">
