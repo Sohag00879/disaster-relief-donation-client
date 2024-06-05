@@ -76,7 +76,7 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 
 ### Clone the Repository:
 
-https://github.com/Sohag00879/disaster-relief-donation-client.git
+git clone https://github.com/Sohag00879/disaster-relief-donation-client.git
 
 
 
